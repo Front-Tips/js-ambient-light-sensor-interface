@@ -1,0 +1,26 @@
+body {
+  margin: 1rem;
+  text-align: center;
+}
+
+b {
+  display: block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+#bulb {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 30px yellow;
+  opacity: 0.2;
+  transition: opacity 0.5s, box-shadow 0.5s;
+}
+
+.dark #bulb {
+  background-color: #3e3e5b;
+  box-shadow: none;
+}
